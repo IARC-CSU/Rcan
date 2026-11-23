@@ -6,4 +6,4 @@
 There were no ERRORs, WARNINGs or NOTEs. 
 
 ## News
-* Remove fixed limits in logscale trends plots (which were dropping some points)
+* Fix custom name in fonction csu_cumrisk bug
