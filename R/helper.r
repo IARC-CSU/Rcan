@@ -757,7 +757,7 @@ core.csu_cumrisk <- function(df_data, var_age, var_cases, var_py, group_by=NULL,
   }
   
   if (var_cumrisk!="cumrisk") {
-    setnames(dt_data, "cumrisk", var_cum_risk)
+    setnames(dt_data, "cumrisk", var_cumrisk)
   }
 
   if (!correction_info) {
