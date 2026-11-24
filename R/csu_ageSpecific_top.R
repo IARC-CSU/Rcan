@@ -38,7 +38,7 @@ csu_ageSpecific_top <-
     
 	for (i in  1:length(temp$plotlist)) {
 	  
-	  print(temp$plotlist[[i]]+guides(color = guide_legend(override.aes = list(size=1), nrow=1,byrow=TRUE)))
+	  print(temp$plotlist[[i]]+guides(color = guide_legend(override.aes = list(linewidth =1), nrow=1,byrow=TRUE)))
 
 	}
 

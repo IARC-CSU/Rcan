@@ -1094,7 +1094,7 @@ core.csu_ageSpecific <-function(df_data,
     
     csu_plot <- base_plot+
       geom_line(aes(color=CSU_BY), linewidth = 1,na.rm=TRUE)+
-      guides(color = guide_legend(override.aes = list(size=0.75)))+
+      guides(color = guide_legend(override.aes = list(linewidth=0.75)))+
       labs(title = plot_title,
            subtitle = plot_subtitle,
            caption = plot_caption)+
