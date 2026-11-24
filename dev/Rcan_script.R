@@ -5,7 +5,7 @@
 # install.packages("ggplot2")
 
 # install.packages("devtools")
-install.packages("rlang")
+# install.packages("rlang")
 
 # install.packages("usethis")
 setwd("C:/project/Rcan/")
