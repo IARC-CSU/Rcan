@@ -3,6 +3,7 @@
 ## 1.3.93
 
 * Fix custom name in fonction csu_cumrisk bug
+* Change github remote source from timat35 to IARC-CSU 
 
 ## 1.3.92
 

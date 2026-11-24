@@ -7,3 +7,4 @@ There were no ERRORs, WARNINGs or NOTEs.
 
 ## News
 * Fix custom name in fonction csu_cumrisk bug
+* Change github remote source from timat35 to IARC-CSU 
