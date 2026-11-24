@@ -26,7 +26,7 @@ library(scales)
  
 #update package (dev version)
   detach(package:Rcan)
-  remove.packages("rlang")
+  remove.packages("Rcan")
   devtools::install_github("IARC-CSU/Rcan", ref = "dev", subdir="Rcan")
 
 #run test unit

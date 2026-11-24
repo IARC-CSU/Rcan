@@ -1,5 +1,6 @@
 Package: Rcan
 Version: 1.3.93
+Encoding: UTF-8
 Title: Cancer Registry Data Analysis and Visualisation
 Date: 2026-11-23
 Authors@R: c(
