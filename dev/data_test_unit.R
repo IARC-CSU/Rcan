@@ -16,7 +16,7 @@ detach(package:Rcan)
 remove.packages("Rcan")
 
 devtools::install(pkg_folder)
-# devtools::install_github("timat35/Rcan", ref = "dev", subdir="Rcan")
+# devtools::install_github("IARC-CSU/Rcan", ref = "dev", subdir="Rcan")
 
 library(Rcan)
 

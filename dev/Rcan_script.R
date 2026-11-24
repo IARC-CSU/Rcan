@@ -22,12 +22,12 @@ library(scales)
 #update package (last stable version)
   detach(package:Rcan)
   remove.packages("Rcan")
-  devtools::install_github("timat35/Rcan")
+  devtools::install_github("IARC-CSU/Rcan")
  
 #update package (dev version)
   detach(package:Rcan)
   remove.packages("Rcan")
-  devtools::install_github("timat35/Rcan", ref = "dev", subdir="Rcan")
+  devtools::install_github("IARC-CSU/Rcan", ref = "dev", subdir="Rcan")
 
 #run test unit
   
