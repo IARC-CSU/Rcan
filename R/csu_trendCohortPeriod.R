@@ -184,7 +184,7 @@ csu_trendCohortPeriod <- function (
   }
   
   csu_plot <- base_plot +
-    geom_line(aes(x=CSU_Xaxes, color=CSU_age_factor), size = 1,na.rm=TRUE)+
+    geom_line(aes(x=CSU_Xaxes, color=CSU_age_factor), linewidth  = 1,na.rm=TRUE)+
     geom_text(data = dt_data[!is.na(CSU_age_label)],
               aes(x=CSU_Xaxes, label = CSU_age_label),
               size=2.5,
@@ -194,7 +194,7 @@ csu_trendCohortPeriod <- function (
   
   if (type == "Both") {
     csu_plot <- csu_plot+
-      geom_line(aes(x=CSU_Y, color=CSU_age_factor), size = 1,na.rm=TRUE)+
+      geom_line(aes(x=CSU_Y, color=CSU_age_factor), linewidth  = 1,na.rm=TRUE)+
       geom_text(data = dt_data[!is.na(CSU_age_label)],
                 aes(x=CSU_Y, label = CSU_age_label),
                 size=2.5,
@@ -280,12 +280,12 @@ csu_trendCohortPeriod <- function (
       plot.margin = unit(c(0.5, 2, 0.5, 0.5), "lines"),
       axis.text = element_text(size=12, colour = "black"),
       axis.text.x = element_text(size=12,  hjust = 0.5),
-      axis.ticks= element_line(colour = "black", size = linesize),
+      axis.ticks= element_line(colour = "black", linewidth  = linesize),
       axis.ticks.length = unit(0.2, "cm"),
       axis.line.x = element_line(colour = "black", 
-                                 size = linesize, linetype = "solid"),
+                                 linewidth  = linesize, linetype = "solid"),
       axis.line.y = element_line(colour = "black", 
-                                 size = linesize, linetype = "solid")
+                                 linewidth  = linesize, linetype = "solid")
     )+
     th_legend
   

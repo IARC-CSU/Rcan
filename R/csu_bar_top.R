@@ -179,8 +179,8 @@ csu_bar_top <-
     plot.background= element_blank(),
     panel.background = element_blank(),
     panel.grid.major.y= element_blank(),
-    panel.grid.major.x= element_line(colour = "grey70",size = line_size),
-    panel.grid.minor.x= element_line(colour = "grey70",size = line_size),
+    panel.grid.major.x= element_line(colour = "grey70",linewidth  = line_size),
+    panel.grid.minor.x= element_line(colour = "grey70",linewidth  = line_size),
     plot.title = element_text(size=18, margin=margin(0,0,15,0),hjust = 0.5),
     plot.subtitle = element_text(size=16, margin=margin(0,0,15,0),hjust = 0.5),
     plot.caption = element_text(size=12, margin=margin(15,0,0,0)),
@@ -191,12 +191,12 @@ csu_bar_top <-
     axis.text = element_text(size=text_size, colour = "black"),
     axis.text.x = element_text(size=text_size),
     axis.text.y = element_text(size=text_size),
-    axis.ticks.x= element_line(colour = "black", size = line_size),
+    axis.ticks.x= element_line(colour = "black", linewidth  = line_size),
     axis.ticks.y= element_blank(),
     axis.ticks.length = unit(0.2, "cm"),
     axis.line.y = element_blank(),
     axis.line.x = element_line(colour = "black", 
-                               size = line_size, 
+                               linewidth  = line_size, 
                                linetype = "solid")
     )
 
