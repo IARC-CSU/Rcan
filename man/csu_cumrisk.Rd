@@ -73,7 +73,7 @@ csu_cumrisk(df_data,
 	
 }
 \references{
-	\url{https://publications.iarc.fr/_publications/media/download/3753/609d0d7711047dd76d7f3dbaa25d7f041fcd013e.pdf}
+	\url{https://publications.iarc.who.int/download/sp169-ci5xii-chapter7.pdf}
 
 }
 \author{

@@ -26,10 +26,10 @@ Cancer in five continent volume XII.
   }
 }
 \details{
-All information are available here: \url{https://ci5.iarc.fr/ci5-xii/}
+All information are available here: \url{https://ci5.iarc.who.int/ci5-xii/}
 }
 \source{
-\url{https://ci5.iarc.fr/ci5-xii/}
+\url{https://ci5.iarc.who.int/ci5-xii/}
 }
 
 \seealso{

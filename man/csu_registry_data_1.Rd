@@ -22,7 +22,7 @@ Cancer registry data for liver cancer, males, 2007, 4 registries.
 this 4 registries have been selected for this example as they  different number of age group (75+, 80+, 85+) and some have missing age cases.
 }
 \source{
-\url{https://ci5.iarc.fr/ci5-xii/}
+\url{https://ci5.iarc.who.int/ci5-xii/}
 }
 
 \seealso{

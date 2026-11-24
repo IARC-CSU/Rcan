@@ -86,7 +86,7 @@ Here is the table of cancer_label and cancer_code available:
 See: \code{\link{csu_ageSpecific}}
 }
 \source{
-\url{https://ci5.iarc.fr/ci5-xii/}
+\url{https://ci5.iarc.who.int/ci5-xii/}
 }
 \seealso{
 	\code{\link{csu_ageSpecific}}

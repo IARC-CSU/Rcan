@@ -48,7 +48,7 @@ csu_eapc(df_data,
 	
 }
 \references{
-	\url{https://nordcan.iarc.fr/docs/eapc_method.pdf}
+	\url{https://nordcan.iarc.who.int/assets/eapc_method-C5Nu2r7F.pdf}
 }
 \author{
 	Mathieu Laversanne

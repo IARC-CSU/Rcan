@@ -5,7 +5,7 @@
 # install.packages("ggplot2")
 
 # install.packages("devtools")
-# install.packages("gitcreds")
+install.packages("rlang")
 
 # install.packages("usethis")
 setwd("C:/project/Rcan/")
@@ -26,7 +26,7 @@ library(scales)
  
 #update package (dev version)
   detach(package:Rcan)
-  remove.packages("Rcan")
+  remove.packages("rlang")
   devtools::install_github("IARC-CSU/Rcan", ref = "dev", subdir="Rcan")
 
 #run test unit
