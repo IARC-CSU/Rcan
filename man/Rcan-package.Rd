@@ -3,19 +3,18 @@
 \alias{Rcan}
 \docType{package}
 \title{
-\packageTitle{Rcan}
+	\packageTitle{Rcan}
 }
 \description{
-\packageDescription{Rcan}
+	\packageDescription{Rcan}
 }
 
 \author{
-\packageAuthor{Rcan}
-
-Maintainer: \packageMaintainer{Rcan}
+	\packageAuthor{Rcan}
+	Maintainer: \packageMaintainer{Rcan}
 }
 \references{
-\url{https://publications.iarc.who.int/download/sp169-ci5xii-chapter7.pdf
+	\url{https://publications.iarc.who.int/download/sp169-ci5xii-chapter7.pdf}
 }
 
 \seealso{
